@@ -1,9 +1,4 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
-.body
-{
-    margin-left:auto;
-    margin-right:auto;
-}
 #topbar
 {
     color:#e8e2da;
@@ -16,4 +11,6 @@
 #container
 {
     width:600px;
+    margin-left:auto;
+    margin-right:auto;
 }
