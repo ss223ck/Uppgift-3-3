@@ -8,7 +8,7 @@
     text-align:right;
     padding-top:4px;
     padding-bottom:2px;
-    margin-right:3px;
+    
 }
 #container
 {
@@ -17,4 +17,37 @@
     margin-right:auto;
     background-color:#51473d;
     overflow:auto;
+    padding:12px;
+}
+
+#menu li
+{
+    list-style-type: none;
+    float:left;
+}
+#menu ul li a
+{
+    margin:1px;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    padding:10px;
+    background-color:#a29279;
+    color:#e8e2da;
+    
+}
+#menu ul li a:hover
+{
+    
+}
+#menu .active a
+{
+    color:#624d3a;
+    background-color:#eae7d2;
+}
+#content
+{
+    clear:left;
+    color:#624d3a;
+    background-color:#eae7d2;
 }
