@@ -8,6 +8,10 @@
     text-align:right;
     padding-top:4px;
     padding-bottom:2px;
+    background-image:url(pics/coffey.jpg);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    height:225px;
 }
 #container
 {
@@ -71,7 +75,7 @@
 }
 #subcontent
 {
-    width:;
+    max-width:200px;
 }
 #subcontent h1
 {
