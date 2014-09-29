@@ -2,15 +2,19 @@
 #topbar
 {
     color:#e8e2da;
-    font-family:verdana, ,sans-serif;
+    font-style:italic;
+    font-family:verdana, sans-serif;
+    font-size:11px;
     text-align:right;
-    background-color:#51473d;
     padding-top:4px;
     padding-bottom:2px;
+    margin-right:3px;
 }
 #container
 {
     width:600px;
     margin-left:auto;
     margin-right:auto;
+    background-color:#51473d;
+    overflow:auto;
 }
