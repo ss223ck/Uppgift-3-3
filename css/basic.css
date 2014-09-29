@@ -37,7 +37,7 @@
     padding:10px;
     background-color:#a29279;
     color:#e8e2da;
-    
+    text-transform: capitalize;
 }
 #menu ul li a:hover
 {
@@ -46,12 +46,45 @@
 #menu .active a
 {
     color:#624d3a;
-    background-color:#eae7d2;
+    background-color:#e8e5dc;
 }
 #content
 {
     clear:left;
     color:#624d3a;
-    background-color:#eae7d2;
+    background-color:#e8e5dc;
     padding:10px;
+}
+#content p
+{
+    font-family:sans-serif;
+}
+#maincontent img
+{
+    float:left;
+}
+#maincontent
+{
+    font-size:14px;
+    width:353px;
+    border-right:1px dashed grey;
+}
+#subcontent
+{
+    width:;
+}
+#subcontent h1
+{
+    font-size:16px;
+    font-family:"Times New Roman", serif;
+}
+#subcontent p
+{
+    font-size:10px;
+    line-height:14px;
+}
+#subcontent h2
+{
+    font-size:16px;
+    font-family:"Times New Roman", serif;
 }
