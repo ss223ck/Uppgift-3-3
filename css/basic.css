@@ -8,7 +8,6 @@
     text-align:right;
     padding-top:4px;
     padding-bottom:2px;
-    
 }
 #container
 {
@@ -19,11 +18,15 @@
     overflow:auto;
     padding:12px;
 }
-
+#menu a
+{
+    display:none;
+}
 #menu li
 {
     list-style-type: none;
     float:left;
+    margin-bottom:-1px;
 }
 #menu ul li a
 {
@@ -50,4 +53,5 @@
     clear:left;
     color:#624d3a;
     background-color:#eae7d2;
+    padding:10px;
 }
