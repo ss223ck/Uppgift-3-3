@@ -92,3 +92,15 @@
     font-size:16px;
     font-family:"Times New Roman", serif;
 }
+#subcontent li
+{
+    list-style-type:none;
+}
+#subcontent li a
+{
+    color:black;
+}
+#subcontent li a:visited
+{
+    color:black;
+}
