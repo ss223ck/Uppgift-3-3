@@ -18,9 +18,13 @@
     width:600px;
     margin-left:auto;
     margin-right:auto;
-    background-color:#51473d;
+    background-color:#51473D;
     overflow:auto;
-    padding:12px;
+    border:1px solid grey;
+}
+#menu ul
+{
+    margin-left:-20px;
 }
 #menu a
 {
@@ -31,6 +35,7 @@
     list-style-type: none;
     float:left;
     margin-bottom:-1px;
+    margin-top:-3px;
 }
 #menu ul li a
 {
@@ -38,59 +43,78 @@
     display:block;
     text-align:center;
     text-decoration:none;
-    padding:10px;
-    background-color:#a29279;
+    padding:15px;
+    background-color:#797066;
     color:#e8e2da;
     text-transform: capitalize;
 }
 #menu ul li a:hover
 {
-    
+    background-color:#9C9084;
 }
 #menu .active a
 {
     color:#624d3a;
-    background-color:#e8e5dc;
+    background-color:#EAE7D2;
 }
 #content
 {
     clear:left;
     color:#624d3a;
-    background-color:#e8e5dc;
+    background-color:#EAE7D2;
     padding:10px;
 }
 #content p
 {
     font-family:sans-serif;
 }
+#maincontent h1
+{
+    font-family:"Times New Roman", serif;
+    font-weight:200;
+}
 #maincontent img
 {
     float:left;
+    margin-right:3px;
 }
 #maincontent
 {
     font-size:14px;
     width:353px;
     border-right:1px dashed grey;
+    display:inline-block;
+    line-height:23px;
+    letter-spacing:1px;
 }
 #subcontent
 {
-    max-width:200px;
+    max-width:220px;
+    position:relative;
+    display:inline-block;
+    float:right;
+    letter-spacing:1px;
 }
 #subcontent h1
 {
     font-size:16px;
     font-family:"Times New Roman", serif;
+    font-weight:300;
 }
 #subcontent p
 {
     font-size:10px;
-    line-height:14px;
+    line-height:20px;
 }
 #subcontent h2
 {
     font-size:16px;
     font-family:"Times New Roman", serif;
+    font-weight:200;
+}
+#subcontent ul
+{
+    list-style-type:none;
 }
 #subcontent li
 {
@@ -99,8 +123,16 @@
 #subcontent li a
 {
     color:black;
+    margin-left:-40px;
+    font-weight:100;
+    letter-spacing:1px;
 }
 #subcontent li a:visited
 {
     color:black;
+}
+#bottomcontent
+{
+    font-style:italic;
+    font-size:12px;
 }
