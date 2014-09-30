@@ -26,7 +26,7 @@
 {
     margin-left:-20px;
 }
-#menu a
+#menu > a
 {
     display:none;
 }
@@ -35,7 +35,7 @@
     list-style-type: none;
     float:left;
     margin-bottom:-1px;
-    margin-top:-3px;
+    margin-top:-10px;
 }
 #menu ul li a
 {
@@ -56,6 +56,11 @@
 {
     color:#624d3a;
     background-color:#EAE7D2;
+}
+#menu .active a:hover
+{
+    color:#624d3a;
+    background-color:#EAE7D2
 }
 #content
 {
